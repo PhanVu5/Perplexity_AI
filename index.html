@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./styles/output.css">
+    <script src="https://kit.fontawesome.com/b5653f887b.js" crossorigin="anonymous"></script>
+    <title>Plexity</title>
+</head>
+<body>
+    <div id="container">
+        <div class="box--1">
+            <div class="function_head">
+                <div class="logo__project">
+                    <a href="https://codesandbox.io/s/vanilla-spa-router-59tyx?file=/js/router.js:107-140" onclick="route()">
+                        <i class="fa-brands fa-slack" style="color: #46c3aa; font-size: 30px;"></i>
+                        <p>perplexity</p>
+                    </a>
+
+                </div>
+                <div class="search__ask">
+                    <input class="search" type="text" placeholder="New Thead...">
+                </div>
+                <div class="function__app">
+                    <div class="function__list">
+                        <a href="/" onclick="route()">
+                            <div class="function__home">
+                                <i class="fa-solid fa-magnifying-glass"></i> Home
+                            </div>
+                        </a>
+                    </div>
+                    <div class="function__list">
+                        <a href="/Discover" onclick="route()">
+                            <div class="function__home">
+                                <i class="fa-regular fa-compass"></i> Discover
+                            </div>
+                        </a>
+                    </div>
+                    <div class="function__list">
+                        <a href="/Thread" onclick="route()">
+                            <div class="function__home">
+                                <i class="fa-regular fa-window-restore"></i> My Threads
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="function_footer">
+                <div class="border_bt_footer">
+                    <div class="introduction">
+                        <h5>Try Pro</h5>
+                        <p>
+                            Upgrade to Claude-2 or GPT-4, boost your Copilot uses, and upload more files.
+                        </p>
+                    </div>
+                    <div class="function__list_footer">
+                        <button class="function__learn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Learn More
+                        </button>
+                    </div>
+                    <div class="function__list_footer">
+                        <a href="">
+                            <div class="function__account">
+                                <img src="./img/connect_face.png" alt="">
+                                <p>phanminhvu_t65@devthanh</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="connect">
+                    <div class="path_connect">
+                        <button class="contact contact__download">
+                            <i class="fa-solid fa-download"></i> Download
+                        </button>
+                        <button class="contact">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </button>
+                        <button class="contact">
+                            <i class="fa-brands fa-github-alt"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="main-page" class="box--2"></div>
+
+    </div>
+    
+    <script src="./javascript/CopilotCheckbox.js"></script>
+    <script src="./javascript/router.js"></script>
+    <script src="./javascript/UpRowInput.js"></script>
+</body>
+</html>

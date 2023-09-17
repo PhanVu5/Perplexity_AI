@@ -1,0 +1,29 @@
+<div id="replace_type_ask" class="container__home w-full h-full mx-auto  max-w-screen-md px-20  text-center">
+    <div class="title">
+        <h1 class="text-4xl">Where knowledge begins</h1>
+    </div>
+    <div class="relative">
+        <textarea class="input_user border-2" name="" id="" cols="30" rows="10" placeholder="Ask anything..."
+            style="height: 114px !important;"></textarea>
+        <button class="inp_buttom btn_focus">
+            <i class="fa-solid fa-magnifying-glass"></i> Focus
+        </button>
+        <button class="inp_buttom btn_file">
+            <i class="fa-solid fa-circle-plus" style="color: #25395b;"></i> File
+        </button>
+        <button class="btn_checkbox" onchange="replaceColorCopilot(), replaceText()">
+            <label class="switch">
+                <input type="checkbox" id="myCheckbox">
+                <span class="slider round"></span>
+                <div id="name_checkbox" class="name_checkbox">Copilot</div>
+            </label>
+        </button>
+        <button class="inp_buttom btn_arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+    </div>
+    <div class="try_ask_curent">
+        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+        Try<span id="type_ask"> asking</span>
+    </div>
+</div>
