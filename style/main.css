@@ -87,6 +87,7 @@ body {
 }
 
 .function__home {
+    display: flex;
     font-size: 1rem;
     font-weight: 600;
     border-radius: 5px;
@@ -100,6 +101,10 @@ body {
 .function__home:hover {
     opacity: 0.8;
     background-color: var(--function-hover-color);
+}
+.function__home>i {
+    margin: auto 0;
+    margin-right: 10px;
 }
 
 .function__list>a,
@@ -384,7 +389,7 @@ input:checked+.slider:before {
 .contain_header_dcv{
     position: fixed;
     top: 0;
-    width: 100%;  
+    width: 82.7%;  
     background-color:  var(--bg-ui-right);
     border-bottom: 1px solid #c9c9c9;
     z-index: 15;
@@ -399,6 +404,7 @@ input:checked+.slider:before {
     color: #363636;
     font-size: 30px;
     padding: 32px;
+    padding-left: 0;
 }
 
 .content_dcv{
@@ -720,10 +726,11 @@ input:checked+.slider:before {
 .fixed_checkbox{
     position: fixed;
     bottom: 2px;
-    transform: translate(30%, -50%);
+    transform: translate(30%, -30px);
 }
 
-#myTextarea{
+.chat_askAI{
+    overflow: hidden;
     box-shadow: 2px 2px 3px 9px rgb(229 229 229);
     border-width: 2px;
     width: 100vw;
@@ -733,6 +740,7 @@ input:checked+.slider:before {
 }
 
 #myTextarea:focus{
+    overflow: hidden;
     outline-color: #c5c4c4;
 }
 

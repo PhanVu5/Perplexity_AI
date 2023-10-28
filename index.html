@@ -14,10 +14,10 @@
         <div class="box--1">
             <div class="function_head">
                 <div class="logo__project">
-                    <a href="https://codesandbox.io/s/vanilla-spa-router-59tyx?file=/js/router.js:107-140" onclick="route()">
+                    <button onclick="handleLocation('/')">
                         <i class="fa-brands fa-slack" style="color: #46c3aa; font-size: 30px;"></i>
                         <p>perplexity</p>
-                    </a>
+                    </button>
 
                 </div>
                 <div class="search__ask">
@@ -25,25 +25,19 @@
                 </div>
                 <div class="function__app">
                     <div class="function__list">
-                        <a href="/" onclick="route()">
-                            <div class="function__home">
+                        <button class="function__home" onclick="handleLocation('/')">
                                 <i class="fa-solid fa-magnifying-glass"></i> Home
-                            </div>
-                        </a>
+                        </button>
                     </div>
                     <div class="function__list">
-                        <a href="/Discover" onclick="route()">
-                            <div class="function__home">
+                        <button class="function__home"  onclick="handleLocation('/Discover')">
                                 <i class="fa-regular fa-compass"></i> Discover
-                            </div>
-                        </a>
+                        </button>
                     </div>
                     <div class="function__list">
-                        <a href="/Thread" onclick="route()">
-                            <div class="function__home">
+                        <button class="function__home"  onclick="handleLocation('/Thread')">
                                 <i class="fa-regular fa-window-restore"></i> My Threads
-                            </div>
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -62,12 +56,12 @@
                         </button>
                     </div>
                     <div class="function__list_footer">
-                        <a href="">
+                        <button href="">
                             <div class="function__account">
                                 <img src="./img/connect_face.png" alt="">
                                 <p>phanminhvu_t65@devthanh</p>
                             </div>
-                        </a>
+                        </button>
                     </div>
                 </div>
                 <div class="connect">
@@ -91,7 +85,7 @@
     </div>
     
     <script src="./javascript/CopilotCheckbox.js"></script>
-    <script src="./javascript/router.js"></script>
     <script src="./javascript/UpRowInput.js"></script>
+    <script src="./javascript/router.js"></script>
 </body>
 </html>
