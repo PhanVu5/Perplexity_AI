@@ -8,11 +8,11 @@ let path = "/";
 // };
 
 const routes = {
-    404: "/pages/404.html",
-    "/": "/pages/index.html",
-    "/chatAI": "/pages/chatAI.html",
-    "/Discover": "/pages/Discover.html",
-    "/Thread": "/pages/chatAI.html",
+    404: "@/pages/404.html",
+    "/": "@/pages/index.html",
+    "/chatAI": "@/pages/chatAI.html",
+    "/Discover": "@/pages/Discover.html",
+    "/Thread": "@/pages/chatAI.html",
 };
 
 const handleLocation = async (path) => {
